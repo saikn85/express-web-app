@@ -1,0 +1,22 @@
+{
+  "name": "express-web-app",
+  "version": "1.0.0",
+  "description": "The Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikn85/express-web-app.git"
+  },
+  "author": "Mad Max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikn85/express-web-app/issues"
+  },
+  "homepage": "https://github.com/saikn85/express-web-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
