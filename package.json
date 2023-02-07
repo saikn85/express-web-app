@@ -4,7 +4,7 @@
   "description": "The Web App",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "set DEBUG=app & node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/saikn85/express-web-app#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "chalk": "^5.2.0",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   }
 }
