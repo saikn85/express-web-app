@@ -1,8 +1,12 @@
 // Imports/Dependencies
 const express = require("express");
+const chalk = require("chalk");
 const debug = require("debug")("app");
 const morgan = require("morgan");
 const path = require("path");
+
+// Application Constants
+const PORT = process.env.PORT || 3000;
 
 // The instance of express
 const app = express();
@@ -17,6 +21,6 @@ app.get("/", (req, res) => {
 });
 
 // The final step is to have it up and running
-app.listen(3000, () => {
-    debug("Express is listening on Port 3000");
+app.listen(PORT, () => {
+    debug(`Express is listening on Port ${chalk.green(PORT)}`);
 });
