@@ -6,7 +6,7 @@ const morgan = require("morgan");
 const path = require("path");
 
 // Application Constants
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000; // Application's port
 
 // The instance of express
 const app = express();
@@ -15,9 +15,16 @@ const app = express();
 app.use(morgan("combined")); // Logs, the request details
 app.use(express.static(path.join(__dirname, "/static/"))); // Servers up the static content
 
+// Configurations
+app.set("views", path.join(__dirname, "views")); // Renders dynamic HTML
+app.set("view engine", "ejs"); // Informs express, the view engine used
+
 // The controller - home/index
 app.get("/", (req, res) => {
-    res.send("Hello from the Express Web App!");
+    res.render("index", {
+        message: "Hello from the Express Web App!",
+        title: "The Express Web App",
+    });
 });
 
 // The final step is to have it up and running
