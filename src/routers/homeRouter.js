@@ -9,4 +9,11 @@ homeController.route("/").get((req, res) => {
     });
 });
 
+homeController.route("/about").get((req, res) => {
+    res.render("about", {
+        message: "This is about",
+        title: "The Express Web App",
+    });
+});
+
 module.exports = homeController;
