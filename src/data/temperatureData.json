@@ -1,0 +1,182 @@
+[
+  {
+    "date": "2023-02-16T10:45:56.2849309+05:30",
+    "temperatureC": -7,
+    "temperatureF": 20,
+    "summary": "Cool"
+  },
+  {
+    "date": "2023-02-17T10:45:56.2852908+05:30",
+    "temperatureC": 30,
+    "temperatureF": 85,
+    "summary": "Mild"
+  },
+  {
+    "date": "2023-02-18T10:45:56.285293+05:30",
+    "temperatureC": 45,
+    "temperatureF": 112,
+    "summary": "Scorching"
+  },
+  {
+    "date": "2023-02-19T10:45:56.2852932+05:30",
+    "temperatureC": 29,
+    "temperatureF": 84,
+    "summary": "Sweltering"
+  },
+  {
+    "date": "2023-02-20T10:45:56.2852933+05:30",
+    "temperatureC": -13,
+    "temperatureF": 9,
+    "summary": "Chilly"
+  },
+  {
+    "date": "2023-02-21T10:45:56.2852934+05:30",
+    "temperatureC": 3,
+    "temperatureF": 37,
+    "summary": "Balmy"
+  },
+  {
+    "date": "2023-02-22T10:45:56.2852935+05:30",
+    "temperatureC": 8,
+    "temperatureF": 46,
+    "summary": "Scorching"
+  },
+  {
+    "date": "2023-02-23T10:45:56.2852936+05:30",
+    "temperatureC": -12,
+    "temperatureF": 11,
+    "summary": "Sweltering"
+  },
+  {
+    "date": "2023-02-24T10:45:56.2852937+05:30",
+    "temperatureC": 24,
+    "temperatureF": 75,
+    "summary": "Cool"
+  },
+  {
+    "date": "2023-02-25T10:45:56.2852938+05:30",
+    "temperatureC": 17,
+    "temperatureF": 62,
+    "summary": "Hot"
+  },
+  {
+    "date": "2023-02-26T10:45:56.285294+05:30",
+    "temperatureC": 40,
+    "temperatureF": 103,
+    "summary": "Sweltering"
+  },
+  {
+    "date": "2023-02-27T10:45:56.2852941+05:30",
+    "temperatureC": 20,
+    "temperatureF": 67,
+    "summary": "Bracing"
+  },
+  {
+    "date": "2023-02-28T10:45:56.2852942+05:30",
+    "temperatureC": 5,
+    "temperatureF": 40,
+    "summary": "Scorching"
+  },
+  {
+    "date": "2023-03-01T10:45:56.2852943+05:30",
+    "temperatureC": 45,
+    "temperatureF": 112,
+    "summary": "Warm"
+  },
+  {
+    "date": "2023-03-02T10:45:56.2852944+05:30",
+    "temperatureC": 16,
+    "temperatureF": 60,
+    "summary": "Bracing"
+  },
+  {
+    "date": "2023-03-03T10:45:56.2852945+05:30",
+    "temperatureC": 43,
+    "temperatureF": 109,
+    "summary": "Balmy"
+  },
+  {
+    "date": "2023-03-04T10:45:56.2852946+05:30",
+    "temperatureC": -8,
+    "temperatureF": 18,
+    "summary": "Cool"
+  },
+  {
+    "date": "2023-03-05T10:45:56.2852947+05:30",
+    "temperatureC": -5,
+    "temperatureF": 24,
+    "summary": "Balmy"
+  },
+  {
+    "date": "2023-03-06T10:45:56.2852948+05:30",
+    "temperatureC": 47,
+    "temperatureF": 116,
+    "summary": "Bracing"
+  },
+  {
+    "date": "2023-03-07T10:45:56.2852949+05:30",
+    "temperatureC": 35,
+    "temperatureF": 94,
+    "summary": "Warm"
+  },
+  {
+    "date": "2023-03-08T10:45:56.285295+05:30",
+    "temperatureC": 52,
+    "temperatureF": 125,
+    "summary": "Chilly"
+  },
+  {
+    "date": "2023-03-09T10:45:56.2852951+05:30",
+    "temperatureC": 41,
+    "temperatureF": 105,
+    "summary": "Freezing"
+  },
+  {
+    "date": "2023-03-10T10:45:56.2852953+05:30",
+    "temperatureC": 51,
+    "temperatureF": 123,
+    "summary": "Freezing"
+  },
+  {
+    "date": "2023-03-11T10:45:56.2852954+05:30",
+    "temperatureC": 12,
+    "temperatureF": 53,
+    "summary": "Balmy"
+  },
+  {
+    "date": "2023-03-12T10:45:56.2852955+05:30",
+    "temperatureC": -4,
+    "temperatureF": 25,
+    "summary": "Sweltering"
+  },
+  {
+    "date": "2023-03-13T10:45:56.2852956+05:30",
+    "temperatureC": -2,
+    "temperatureF": 29,
+    "summary": "Sweltering"
+  },
+  {
+    "date": "2023-03-14T10:45:56.2852957+05:30",
+    "temperatureC": 45,
+    "temperatureF": 112,
+    "summary": "Warm"
+  },
+  {
+    "date": "2023-03-15T10:45:56.2852958+05:30",
+    "temperatureC": 46,
+    "temperatureF": 114,
+    "summary": "Balmy"
+  },
+  {
+    "date": "2023-03-16T10:45:56.2852959+05:30",
+    "temperatureC": 33,
+    "temperatureF": 91,
+    "summary": "Cool"
+  },
+  {
+    "date": "2023-03-17T10:45:56.2852961+05:30",
+    "temperatureC": 14,
+    "temperatureF": 57,
+    "summary": "Hot"
+  }
+]
