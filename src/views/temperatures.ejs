@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title+ %></title>
+    <title>
+        <%= title %>
+    </title>
 </head>
+
 <body>
     <header>
         <ul>
             <li><a href="/">Index</a></li>
             <li><a href="/about">About</a></li>
+            <li><a href="/temperature">Temperature</a></li>
         </ul>
     </header>
     <h1>
@@ -18,12 +23,24 @@
     </h1>
     <section>
         <table>
-            <% for(let datum in data) { %>
+            <% for(let datum of data) { %>
                 <tr>
-                    <td><%= %></td>
+                    <td>
+                        <%= datum.date %>
+                    </td>
+                    <td>
+                        <%= datum.temperatureC %>
+                    </td>
+                    <td>
+                        <%= datum.temperatureF %>
+                    </td>
+                    <td>
+                        <%= datum.summary %>
+                    </td>
                 </tr>
-            <% } %>
+                <% } %>
         </table>
     </section>
 </body>
+
 </html>

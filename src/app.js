@@ -4,7 +4,9 @@ const chalk = require("chalk");
 const debug = require("debug")("app");
 const morgan = require("morgan");
 const path = require("path");
+
 const homeRouter = require("./routers/homeRouter");
+const temperatureROuter = require("./routers/temperatureRouter")
 
 // Application Constants
 const PORT = process.env.PORT || 3000; // Application's port
@@ -22,7 +24,7 @@ app.set("view engine", "ejs"); // Informs express, the view engine used
 
 // The controller - home/index
 app.use("/", homeRouter);
-
+app.use("/temperature", temperatureROuter);
 
 // The final step is to have it up and running
 app.listen(PORT, () => {
