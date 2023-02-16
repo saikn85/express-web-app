@@ -23,8 +23,11 @@
     </h1>
     <section>
         <table>
-            <% for(let datum of data) { %>
+            <% let idx = 0; for(let datum of data) { %>
                 <tr>
+                    <td>
+                        <a href="/temperature/<%= idx %>">view</a>
+                    </td>
                     <td>
                         <%= datum.date %>
                     </td>
@@ -34,11 +37,9 @@
                     <td>
                         <%= datum.temperatureF %>
                     </td>
-                    <td>
-                        <%= datum.summary %>
-                    </td>
                 </tr>
-                <% } %>
+                <% idx++; %>
+            <% } %>
         </table>
     </section>
 </body>

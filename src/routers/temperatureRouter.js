@@ -6,7 +6,7 @@ const temperatureController = express.Router(); // The Router
 // The Controller Method - Index
 temperatureController.route("/").get((req, res) => {
     res.render("temperatures", {
-        message: "Hello from the Express Web App!",
+        message: "OMG! the Temperatures!",
         title: "The Express Web App",
         data: data
     });
@@ -14,9 +14,10 @@ temperatureController.route("/").get((req, res) => {
 
 // The Controller Method - About
 temperatureController.route("/:id").get((req, res) => {
-    res.render("about", {
-        message: "This is about",
+    res.render("idedtemperature", {
+        message: "Summary for Day!",
         title: "The Express Web App",
+        data: data[req.params.id]
     });
 });
 
