@@ -10,6 +10,7 @@ body {
 
 .main-header {
     min-width: 100%;
+    min-height: 50px;
     padding: 8px 16px;
     background-color: #2ddf5c;
 }
@@ -18,8 +19,14 @@ body {
     display: inline-block;
 }
 
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .main-nav {
-    width: calc(100% - 54px);
+    width: calc(100% - 120px);
     display: inline-block;
     text-align: right;
 }
