@@ -18,6 +18,10 @@ body {
     display: inline-block;
 }
 
+.main-header__brand {
+    color: #0e4f1f;
+}
+
 .main-nav {
     width: calc(100% - 54px);
     display: inline-block;
@@ -32,4 +36,10 @@ body {
 
 .main-nav__item {
     display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
 }
