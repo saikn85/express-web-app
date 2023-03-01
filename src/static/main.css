@@ -1,11 +1,13 @@
 * {
-    box-sizing: border-box; /*box calculation = content size + padding + border*/
+    box-sizing: border-box;
+    /*box calculation = content size + padding + border*/
 }
 
 html,
 body {
     margin: 0;
     min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-header {
@@ -14,7 +16,7 @@ body {
     background-color: #2ddf5c;
 }
 
-.main-header > div {
+.main-header>div {
     display: inline-block;
 }
 
@@ -42,4 +44,12 @@ body {
 .main-nav__item a {
     text-decoration: none;
     color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
 }
