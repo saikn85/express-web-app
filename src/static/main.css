@@ -53,3 +53,21 @@ body {
     color: white;
     border-bottom: 5px solid white;
 }
+
+.main-nav__item--cta a {
+    /* Same specificity as above .main-nav__item a */
+    /* Order takes precedence */
+    color: white;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    /* Same specificity as above .main-nav__item a */
+    /* Order takes precedence */
+    color: #ff1b68;
+    background-color: white;
+    border: none;
+}
